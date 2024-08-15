@@ -183,6 +183,7 @@ const handleCellClick = (x, y) => {
 const startBtnHandler = async () => {
   StartBtn.disabled = true;
   if (startingCell.length == 0 && endingCell.length == 0) return;
+  InstructionDom.innerHTML = "Boom!";
   const { path, moves } = printKnightMoves(startingCell, endingCell);
   ResetBtn.disabled = true;
   for (i = 2; i < 2 + moves; i++) {
@@ -191,6 +192,7 @@ const startBtnHandler = async () => {
     // markMove(i - 1, cell[0], cell[1]);
     await new Promise((r) => setTimeout(r, 1000));
   }
+  InstructionDom.innerHTML = "Press Reset button to reset";
   ResetBtn.disabled = false;
 };
 
