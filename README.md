@@ -2,6 +2,10 @@
 
 A website built with JavaScript, HTML, and CSS that demonstrates the Knight's Tour problem using the Breadth-First Search (BFS) algorithm.
 
+### 🔗 **Live Demo:**
+
+Check out the live demo of the Knight Travail website here: [Live Demo](https://rohithachar.github.io/Knights-Travails/)
+
 ## Overview
 
 The Knight Travail website visualizes the Knight's Tour problem, where a knight moves across a chessboard visiting each square exactly once. The algorithm used to solve this problem is Breadth-First Search (BFS). This project showcases the use of BFS to explore all possible moves and find a valid tour for the knight.
